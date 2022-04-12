@@ -4,7 +4,8 @@ The Project's aim was to build a music recommendation system using multiple diff
 
 Data of 4000 user playlists was obtained from Spotify through their RecSys challenge. Additional features for each song was scraped using Spotify's API. 
 
-###########################################################################################################
+#####################################################################
+
 Algorithms used:
 
 Content Filtering: Closest songs to the songs in a playlist are found based on their extracted features. The top k songs which are not already part of the playlist are the new recommendations.
@@ -18,7 +19,7 @@ Clustering: All the songs are clustered into 5 different clusters. For each play
 Word2Vec model: For each song we get a vector represntation using the skipgram model i.e by trying to train a neural network to predict two songs which are played before and after the particular song. (An assumption made here was that the songs in the playlist are in the order in which someone listens to them). The K-nearest neighbours for each song in the playlist were found using Euclidean distance. Songs from those artists which are already in the playlist and which are not already part of the playlist are the new recommendations.
 
 
-########################################################################################################### 
+#####################################################################
  
 A GUI which uses tkinter is also avalaible
 
@@ -28,5 +29,5 @@ In real time the user can choose songs which he likes and based on those songs h
 
 
 
-########################################################################################################### 
+#####################################################################
 
