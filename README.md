@@ -2,7 +2,7 @@
 
 The Project's aim is to build a music recommendation system using multiple different algorithms.
 
-Data of 4000 user playlists was obtained from Spotify through their RecSys challenge. Additional features for each song was scraped using Spotify's API. 
+Data: 4000 user playlists from Spotify through their RecSys challenge. Additional features for each song scraped using Spotify's API. 
 
 #####################################################################
 
