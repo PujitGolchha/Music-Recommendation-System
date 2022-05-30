@@ -24,8 +24,8 @@ Word2Vec model: For each song we get a vector represntation using the skipgram m
 A GUI which uses tkinter is also avalaible
 
 A person just needs to have the datasets "playlists.csv" which are 25 hindi playlists and  "unique_songs.csv" which are the unique songs from these playlists. 
-Firstly the paths to these files need updated in the path1 and path2 variables in the GUI.py and then the GUI.py can be run.
-In real time the user can choose songs which he likes and based on those songs he will get recommendations using different algorithms from the unique songs list.
+Firstly the paths to these files need to be updated in the path1 and path2 variables in the GUI.py and then the GUI.py can be run.
+In real time users can choose songs which they like and based on those songs they will get recommendations using different algorithms from the unique songs list.
 
 
 
